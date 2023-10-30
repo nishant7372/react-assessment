@@ -1,0 +1,21 @@
+.navbar {
+  margin: auto;
+  background-color: #191919;
+  box-shadow: 0 2px 8px 4px rgba(0, 0, 0, 0.6);
+  height: 50px;
+}
+
+.inner {
+  max-width: 1600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+
+.inner > p {
+  /* margin-left: 6rem; */
+  font-size: 2rem;
+  font-weight: 500;
+  color: white;
+}
